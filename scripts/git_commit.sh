@@ -9,3 +9,6 @@ description=$(</dev/stdin)
 
 # Commit using both
 git commit -m "$title" -m "$description"
+
+# Push to GitHub repo
+git push origin master
